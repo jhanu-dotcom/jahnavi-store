@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-628_3w)pt&wzpow$c9844jf8xm**!*wt^($w156!$8nq#gk875
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    'jahnavi-store.onrender.com'
+]
 
 
 # Application definition
